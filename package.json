@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "you tube backened data",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodeon src/index.js" 
   },
   "keywords": [
     "js",
     "backened"
   ],
   "author": "Pawan Chaukiyal",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
